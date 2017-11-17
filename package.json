@@ -1,5 +1,5 @@
 {
-  "name": "simple-pub-sub",
+  "name": "pub-sub-pattern",
   "version": "1.0.0",
   "description": "a super simple pub sub for non DOM related events",
   "main": "./src/app.js",
