@@ -1,4 +1,4 @@
-# simple pub sub
+# pub-sub-pattern
 ## super simple pub sub for non DOM events
 * webpack
 * eslint
