@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ejohnsms/small-project-boilerplate.git"
+    "url": "git+https://github.com/ejohnsms/pub-sub-pattern.git"
   },
   "keywords": [
     "scaffolding"
@@ -22,9 +22,9 @@
   "author": "ejohnsms",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ejohnsms/small-project-boilerplate/issues"
+    "url": "https://github.com/ejohnsms/pub-sub-pattern.git/issues"
   },
-  "homepage": "https://github.com/ejohnsms/small-project-boilerplate#readme",
+  "homepage": "https://github.com/ejohnsms/pub-sub-pattern.git#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
