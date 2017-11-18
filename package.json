@@ -2,12 +2,13 @@
   "name": "pub-sub-pattern",
   "version": "1.0.1",
   "description": "a super simple pub sub for non DOM related events",
-  "main": "./src/app.js",
+  "main": "./dist/app.bundle.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "build": "webpack --progress --color",
+    "prepublish": "npm run build",
     "lint": "eslint ./src/** ./test/** --color",
     "serve": "webpack-dev-server --progress",
     "test": "mocha --require babel-register"

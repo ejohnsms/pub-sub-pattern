@@ -10,6 +10,8 @@ module.exports = {
     test: './test/app.Spec.js'
   },
   output: {
+    library: 'pub-sub',
+    libraryTarget: 'umd',
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].bundle.js'
   },
