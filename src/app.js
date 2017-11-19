@@ -1,8 +1,18 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-  const content = document.querySelector('.content');
-  if (content !== null) {
-    const div = document.createElement(div);
-    div.innerText = 'add demo here';
-    content.appendChild(div);
+export default class PubSubPattern {
+  constructor() {
+    this.subscription = {};
   }
-});
+
+  subscribe(name, callback) {
+    this.subscription[name] = this.subscription[name] || [];
+    this.subscription[name].push(callback);
+  }
+
+  publish(name, data) {
+    if (this.subscription[name]) {
+      this.subscription[name].forEach((sub) => {
+        Reflect.apply(sub, sub, [data]);
+      });
+    }
+  }
+}

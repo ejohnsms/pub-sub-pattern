@@ -1,13 +1,13 @@
 import chai from 'chai';
 import Publisher from '../src/publisher';
-import PubSub from '../src/pub-sub';
+import PubSubPattern from '../src/pub-sub-pattern';
 import Subscriber from '../src/subscriber';
 
 const { assert } = chai;
 
-describe('PubSub', () => {
+describe('PubSubPattern', () => {
   describe('subscriber gets published event', () => {
-    const pb = new PubSub();
+    const pb = new PubSubPattern();
     const sub = new Subscriber(pb);
     const pub = new Publisher(pb);
 
