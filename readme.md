@@ -9,6 +9,6 @@
 
 ### scripts
   * lint> npm run-script lint
-  * test> npm run-script
-  * build> npm run-script
-  * serve> npm run-script
+  * test> npm run-script test
+  * build> npm run-script build
+  * serve> npm run-script serve
